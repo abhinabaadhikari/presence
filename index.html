@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PRESENCE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="script.js"></script>
+</head>
+
+<body onload="datentime()">
+    <nav class="nav-main" id="nav-main">
+        <div class="nav1">
+            <div class="name">PRESENCE</div>
+            <div id="burger">
+                <i onclick="navbar()" class="fas fa-bars"></i>
+            </div>
+            <ul class="nav1-ul">
+                <li class="items" onclick="dtop()">Home</li>
+                <a href="#intro">
+                    <li class="items">Introduction</li>
+                </a>
+                <a href="#topic3">
+                    <li class="items">Topic 3</li>
+                </a>
+            </ul>
+        </div>
+        <div class="nav2" id="nav2">
+            <ul class="nav2-ul">
+                <li class="items" onclick="navbar(), dtop()">Home</li>
+                <a href="#intro">
+                    <li class="items" onclick="navbar()">Introduction</li>
+                </a>
+                <a href="#topic3">
+                    <li class="items" onclick="navbar()">Topic 3</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <div id="time" class="time"></div>
+    <div id="date" class="date"></div>
+    <div id="intro" class="connectors"></div>
+    <div class="p-title">SPACETIME</div>
+    <div class="para">
+        In physics, spacetime is any mathematical model which fuses the three dimensions of space and the one dimension of time into a single four-dimensional manifold. The fabric of space-time is a conceptual model combining the three dimensions of space with the fourth dimension of time.
+        <!--    </div>-->
+        <center><img class="images" src="spacetime.svg" alt="spacetime image"></center>
+        <!--    <div class="para">-->
+        Until the 20th century, it was assumed that the three-dimensional geometry of the universe (its spatial expression in terms of coordinates, distances, and directions) was independent of one-dimensional time. The famous physicist Albert Einstein helped develop the idea of space-time as part of his theory of relativity. Prior to his pioneering work, scientists had two separate theories to explain physical phenomena: Isaac Newton's laws of physics described the motion of massive objects, while James Clerk Maxwell's electromagnetic models explained the properties of light. However, in 1905, Albert Einstein based a work on special relativity on two postulates:
+        <ul class="common-lists">
+            <li>The laws of physics are invariant (i.e., identical) in all inertial systems (i.e., non-accelerating frames of reference)</li>
+            <li>The speed of light in a vacuum is the same for all observers, regardless of the motion of the light source.</li>
+        </ul>
+    </div>
+    <div id="topic3" class="connectors"></div>
+    <div class="p-title">Topic 3</div>
+    <div class="para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iure impedit reiciendis unde quasi magnam minima suscipit, facilis quidem. Aspernatur enim sapiente minima repellendus, modi asperiores consequuntur aliquam sit aperiam, a nemo beatae, incidunt voluptatem deleniti illo eaque neque deserunt ipsam eveniet. Voluptatum aut optio blanditiis et non. Omnis porro est deleniti rem placeat optio doloribus quisquam. Harum, sit earum incidunt optio nemo quidem dolorum aliquid velit. Laborum quisquam harum totam qui, facilis cumque quod esse quas quaerat est, magnam adipisci nihil ipsam alias quidem unde, a impedit! Facilis, asperiores ipsa impedit nobis voluptatum voluptate eaque voluptates enim, nesciunt
+        <br><br>cum provident sequi odio cupiditate cumque inventore possimus. At corrupti sed repellat error, dolor voluptate nisi qui perspiciatis doloremque a quis ex ea ut libero officiis, quo placeat quam nihil laboriosam quae distinctio itaque! Dolore perspiciatis maiores enim vero voluptatibus delectus placeat ex, repellendus, adipisci rem unde porro! Incidunt quidem reiciendis alias doloremque magnam molestiae sed, molestias ea ad saepe quisquam quam deserunt, quo ipsum veritatis at vitae. Odit ab nulla beatae error facilis qui dolore aperiam deserunt impedit, quos est pariatur quasi magnam sint quas perspiciatis ipsam ullam, recusandae asperiores repudiandae reprehenderit ipsa consequatur. Sed, enim velit accusantium magnam reprehenderit! Aliquid iste at reiciendis repellendus, rem nostrum eius fuga vitae cumque aspernatur, explicabo voluptatibus fugiat, magni placeat distinctio laboriosam in aliquam molestiae dolores magnam. Consequatur inventore, praesentium quo saepe ipsum, sed omnis, perspiciatis quam, repellat accusantium facere modi placeat porro magni eos beatae! Quod dolore autem fuga molestias veniam possimus nesciunt culpa amet dolor, sit earum voluptatum cum ipsa blanditiis qui itaque quaerat temporibus error similique hic distinctio assumenda maiores impedit. Harum sunt laborum inventore dolore quisquam similique asperiores pariatur, accusantium odio eum quo qui laboriosam veniam assumenda cum eaque omnis porro nulla, rem voluptatum mollitia laudantium! Aut quis, praesentium!
+    </div>
+
+
+    <!--
+<p>
+    A question that has perplexed philosophers and scientists since the dawn of man, <strong><em>‘What exactly is time?’</em></strong> and it has only been in our recent history that we have started to discover answers, thanks to Einstein and his work on special and general relativity. 
+    <br><br>
+    Now we know time is not an abstract concept we first thought it was, and it is not constant and is relative to different observers throughout the universe, with the speed of light being the only constant in the universe. In other words, if the speed of light has to be the same for everybody, then someone traveling at close to such a speed would find time to slow down. Fortunately, as all humans live within the boundaries of the planet Earth, it means the passing of time is very similar for us all (or so minutely different that it is impossible to measure). However, technologies such as satellites and GPS systems need to consider this altering state of time, else would be wholly inaccurate. As humans have progressed, telling the time with ever-increasing accuracy has become very important.
+    <br><br>
+    Historically, knowing the time was not so imperative. People needed to know the correct day to plant crops or when sunrise and sunset happened, but accuracy was not a preoccupation. However, since the invention of the mechanical clocks followed by the electronic clocks in the twentieth century, people started relying on them for their precision in technologies. Seafaring, aviation, and now space travel means that humans have sought more accurate ways of tracking time. Following that, in the 1950s, Atomic clocks were invented. These were so accurate that the revolution time of Earth, something we had based on our timescale for centuries, was nowhere near to these new clocks. Nowadays, technologies such as the Internet, the GPS (Global Positioning System), and satellite communication require high precision, as light can travel 300,000 km per second. Meaning accuracies of a split second could mean our satellite navigation systems could be out by thousands of miles, and computer trading would be almost impossible.
+    <br><br>
+    Fortunately, a global time scale, UTC (Coordinated Universal Time), has been developed and is based on the time told by atomic clocks. It helps systems all over the world to synchronize at the same time. Computer networks use the NTP protocol (Network Time Protocol) to receive a UTC timing reference and synchronize all machines on a network to that time. NTP servers can receive a time reference over the Internet (although not very secure) from a national radio transmission (as long as the receiver is within the suitable range) or from the GPS network (via a rooftop GPS antenna).
+</p>
+-->
+
+    <div class="footer">
+
+    </div>
+
+</body></html>
